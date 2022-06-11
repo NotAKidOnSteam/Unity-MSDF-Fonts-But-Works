@@ -41,8 +41,8 @@ public class MSDFTilesetGenerator : EditorWindow
     public bool IncludeAllGlyphs = false;
     public bool UseTextureCompression = false;
 
-    private const string MSDFGenPath = "Assets/Merlin/MSDF/bin/msdfgen.exe";
-    private const string MSDFTempPath = "Assets/Merlin/MSDF/gen/glyph{0}.png";
+    private const string MSDFGenPath = "Assets/Merlin/bin/msdfgen.exe";
+    private const string MSDFTempPath = "Assets/Merlin/gen/glyph{0}.png";
 
     [MenuItem("Window/Merlin/MSDF Font Tileset Generator")]
     public static void ShowWindow()
