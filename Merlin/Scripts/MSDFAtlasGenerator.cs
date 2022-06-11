@@ -38,8 +38,8 @@ public class MSDFAtlasGenerator : EditorWindow
     public Texture2D AtlasToSave = null;
     public bool UseTextureCompression = false;
 
-    private const string MSDFGenPath = "Assets/Merlin/MSDF/bin/msdfgen.exe";
-    private const string MSDFTempPath = "Assets/Merlin/MSDF/gen/glyph{0}.png";
+    private const string MSDFGenPath = "Assets/Merlin/bin/msdfgen.exe";
+    private const string MSDFTempPath = "Assets/Merlin/gen/glyph{0}.png";
 
     [MenuItem("Window/Merlin/MSDF Font Generator")]
     public static void ShowWindow()
